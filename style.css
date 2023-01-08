@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    position: fixed;
+    background-color:black;
+    width: 100%;
+    padding: 30px;
+  }
+  
+.navbar-ul {
+    display: flex;
+    list-style: none;
+
+  }
+.navbar-ul li{
+    padding: 10px;
+  }
+.navbar-ul li a{
+    padding: 15px;
+    background-color: burlywood;
+    text-decoration: none;
+    margin-top: 10px;
+    color: white;
+  }
+  
+nav a:hover {
+    background-color: #555;
+  }
+.btn{
+    background-color: black;
+    padding: 5px;
+    color: white;
+    border-radius: 50px;
+}
+.btn:hover{
+    background-color: #Eb6857;
+}
+  
+.flex-container{
+    display: flex;
+    flex-direction: row;
+}
+.flex-item-left{
+     margin-top: 118px;
+     margin-left: 5px;
+}
+.flex-item-right{
+   margin-top: 118px;
+   width: 50%;
+}
+.img{
+    height: 400px
+}
+@Import Url('Https://Fonts.Googleapis.Com/Css2?Family=Poppins:wght@200;300;400;500;600;700;800;900&Display=Swap');
+*{
+Margin:0;
+Padding:0;
+Box-Sizing: Border-Box;
+}
+Body{
+Font-Family: 'Poppins', Sans-Serif;
+Min-Height: 100vh;
+Display: Block;
+Align-Items: Center;
+Justify-Content: Center;
+}
+.Site-Footer {
+Background-Color: #26272b;
+Padding: 45px 0 20px;
+Font-Size: 15px;
+Line-Height: 24px;
+Color: #737373;
+Box-Shadow: 0 10px 20px Rgba(0,0,0,0.5);
+}
+.Site-Footer Hr {
+Border-Top-Color: #Bbb;
+Opacity: 0.5;
+}
+.Site-Footer Hr.Small {
+Margin: 20px 0;
+}
+.Site-Footer H6 {
+Color: #Fff;
+Font-Size: 16px;
+Text-Transform: Uppercase;
+Margin-Top: 5px;
+Letter-Spacing: 2px;
+}
+.Site-Footer A {
+Color: #737373;
+}
+.Site-Footer A:hover {
+Color: #Fff;
+Text-Decoration: None;
+}
+.Footer-Links {
+Padding-Left: 0;
+List-Style: None;
+}
+.Footer-Links Li {
+Display: Block;
+}
+.Footer-Links A {
+Color: #737373;
+}
+.Footer-Links A:active,
+.Footer-Links A:focus,
+.Footer-Links A:hover {
+Color: #Fff;
+Text-Decoration: None;
+}
+.Site-Footer .Social-Icons {
+Text-Align: Right;
+}
+.Site-Footer .Social-Icons A {
+Width: 40px;
+Height: 40px;
+Line-Height: 40px;
+Margin-Left: 6px;
+Margin-Right: 0;
+Border-Radius: 100%;
+Background-Color: #33353d;
+}
+.Copyright-Text {
+Margin: 0;
+}
+@Media (Max-Width: 991px) {
+.Site-Footer [Class^="Col-"] {
+Margin-Bottom: 30px;
+}
+}
+@Media (Max-Width: 767px) {
+.Site-Footer {
+Padding-Bottom: 0;
+}
+.Site-Footer .Copyright-Text,
+.Site-Footer .Social-Icons {
+Text-Align: Center;
+}
+}
+.Social-Icons {
+Padding-Left: 0;
+Margin-Bottom: 0;
+List-Style: None;
+}
+.Social-Icons Li {
+Display: Inline-Block;
+Margin-Bottom: 4px;
+}
+.Social-Icons A {
+Background-Color: #Eceeef;
+Color: #818a91;
+Font-Size: 16px;
+Display: Inline-Block;
+Line-Height: 44px;
+Width: 44px;
+Height: 44px;
+Text-Align: Center;
+Margin-Right: 8px;
+Border-Radius: 100%;
+-Webkit-Transition: All 0.2s Linear;
+-O-Transition: All 0.2s Linear;
+Transition: All 0.2s Linear;
+}
+.Logo{
+Color:#Eb6857;
+}
+.Social-Icons A:active,
+.Social-Icons A:focus,
+.Social-Icons A:hover {
+Color: #Fff;
+Background-Color: #29aafe;
+}
+.Social-Icons A.Facebook:hover {
+Background-Color: #3b5998;
+}
+.Social-Icons A.Twitter:hover {
+Background-Color: #00aced;
+}
+.Social-Icons A.Linkedin:hover {
+Background-Color: #007bb6;
+}
+.Social-Icons A.Dribbble:hover {
+Background-Color: #Ea4c89;
+}
+  
